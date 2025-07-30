@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shahid Plant Store</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #e6ffe6, #ccffcc);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2e8b57;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #1e6b45;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px;
+      gap: 20px;
+    }
+
+    .plant-card {
+      background-color: white;
+      width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .plant-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .plant-card h3 {
+      padding: 10px;
+      color: #2e8b57;
+    }
+
+    .plant-card p {
+      padding: 0 10px 10px;
+      color: #555;
+    }
+
+    footer {
+      background-color: #2e8b57;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .footer-info {
+      max-width: 300px;
+    }
+
+    .footer-info h4 {
+      margin-bottom: 10px;
+    }
+
+    .footer-info p {
+      margin: 5px 0;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      footer {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Shahid Plant Store</h1>
+    <p>Fresh Greenery at Your Doorstep</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Plants</a>
+    <a href="#">Offers</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <div class="plant-card">
+      <img src="https://www.ugaoo.com/cdn/shop/products/ArecaPalmIndoorPlant.jpg?v=1671795544" alt="Areca Palm">
+      <h3>Areca Palm</h3>
+      <p>₹499 - Air purifying indoor plant.</p>
+    </div>
+
+    <div class="plant-card">
+      <img src="https://www.ugaoo.com/cdn/shop/products/AloeVeraIndoorPlant.jpg?v=1671795472" alt="Aloe Vera">
+      <h3>Aloe Vera</h3>
+      <p>₹299 - Medicinal succulent plant.</p>
+    </div>
+
+    <div class="plant-card">
+      <img src="https://www.ugaoo.com/cdn/shop/products/SnakePlant.jpg?v=1671795697" alt="Snake Plant">
+      <h3>Snake Plant</h3>
+      <p>₹399 - Low maintenance home decor.</p>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-info">
+      <h4>Contact Info</h4>
+      <p><strong>Phone:</strong> 9597336225</p>
+      <p><strong>Email:</strong> sheik@gami.com</p>
+      <p><strong>Address:</strong> 123, Green Street, Chennai</p>
+    </div>
+
+    <div class="footer-info">
+      <h4>Follow Us</h4>
+      <p>Instagram | Facebook | Twitter</p>
+    </div>
+  </footer>
+
+</body>
+</html>
